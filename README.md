@@ -11,6 +11,7 @@ Esse repositório é voltado para estudo da linguagem Java com foco em testes e 
 
             
             public class MinhaClasse{
+                
             } 
 
 - A classe precisa ter um método principal, chamado de main
