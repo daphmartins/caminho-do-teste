@@ -28,6 +28,11 @@ Esse repositório é voltado para estudo da linguagem Java com foco em testes e 
             }
 ## Variáveis
 
+<p>
+É a identificação de uma porção de espaço de uma memória que será utilizada pelo programa. </p>
+<p>Isto é, ao criar uma variável você dá nome específico para uma quantia de memória necessária e ao estabelecer um tipo, você estabelece o tipo de dado que será armazenado nessa memória.
+</p>
+
 ### Estrutura da variável: 
   <br>
 
@@ -40,14 +45,18 @@ Esse repositório é voltado para estudo da linguagem Java com foco em testes e 
   - Em palavras compostas utilizar: camelCase  
   - Deve ter um nome único dentro do escopo  
   - Não contém espaço ou algumas palavras específicas, como *long*
-  - De somente um valor: 
-    - Utilizar **UPPER_CASE** 
-    - Em palavras compostas devem ser separar por: _
-    - final + tipo + nome = atribuição
-            
-            final String BR = Brasil
   - **As atribuições são opcionais em alguns casos**
 
+## Constantes
+ ### Estrutura da constante 
+    final + tipo + nome = atribuição
+Exemplo:       
+
+    final String BR = Brasil
+- São como variáveis que receberão somente um valor: 
+    - Utilizar **UPPER_CASE** 
+    - Em palavras compostas devem ser separar por: _
+   
  ## Métodos
 
  ### Estrutura da declaração de métodos:
