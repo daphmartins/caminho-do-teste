@@ -27,21 +27,34 @@ Esse repositório é voltado para estudo da linguagem Java com foco em testes e 
 
             }
 ## Variáveis
-- Usualmente começam com letra minúscula ou **$**
-- Em palavras compostas: camelCase
-- De somente um valor: 
-    - Em palavras compostas: separadas por _
-    - **UPPER_CASE** 
-    - final + tipo + nome = valor
-            
-            final String BR = Brasil
-- Contém somente letras, **$**, números de 0 a 9 ou _
-- Deve ter um nome único dentro do escopo
-- Não contém espaço ou algumas palavras específicas, como *long*
-### Estrutura: 
+
+### Estrutura da variável: 
   <br>
 
     tipo nomeBemDefinido = Atribuição
 
+- Tipo: String, inteiro, booleano, etc.
+- Nome da variável:
+  - Deve conter somente letras, **$**, números de 0 a 9 ou _
+  - Usualmente começam com letra minúscula ou **$**
+  - Em palavras compostas utilizar: camelCase  
+  - Deve ter um nome único dentro do escopo  
+  - Não contém espaço ou algumas palavras específicas, como *long*
+  - De somente um valor: 
+    - Utilizar **UPPER_CASE** 
+    - Em palavras compostas devem ser separar por: _
+    - final + tipo + nome = atribuição
+            
+            final String BR = Brasil
+  - **As atribuições são opcionais em alguns casos**
+
+ ## Métodos
+
+ ### Estrutura da declaração de métodos:
+
+    tipoDeRetorno nomeObjetivoInfinitivo (Parametros)
+
+Ex: 
     
-    
+    public static String formatarCep (long cep)
+     
