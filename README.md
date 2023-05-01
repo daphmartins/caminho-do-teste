@@ -48,7 +48,7 @@ Esse repositório é voltado para estudo da linguagem Java com foco em testes e 
   - **As atribuições são opcionais em alguns casos**
 
 ## Constantes
- ### Estrutura da constante 
+### Estrutura da constante 
     final + tipo + nome = atribuição
 Exemplo:       
 
@@ -56,10 +56,62 @@ Exemplo:
 - São como variáveis que receberão somente um valor: 
     - Utilizar **UPPER_CASE** 
     - Em palavras compostas devem ser separar por: _
-   
- ## Métodos
 
- ### Estrutura da declaração de métodos:
+## Operadores
+- **Operador de atribuição**: =
+    - Define ou sobrescreve o valor de uma variável
+    - _exemplos_:
+
+            String nome = "Daphne";
+            int idade = 29;
+            double altura = 1.65;
+            char genero = 'Não declarado';
+            boolean doadorOrgao = false;
+            // Criação de uma nova classe:
+            Date dataNascimento = new Date();
+- **Operadores aritméticos**: 
+    - Operações matemáticas
+    - _exemplos_:
+
+            double expressaoMatematica = (10 + 3) * (30.5 - 100);
+            int modulo = 10 % 5;
+            int soma = 10 + 10;
+    - O operador de soma também concatena strings:
+
+            String linguagemProgramacao = "Linguagem " + "JAVA";  
+- **Operador unário de valor positivo**: +
+- **Operador unário negativo**: - 
+    - Nega número ou expressão aritmética;
+- **Operador unário de incremento de valor**: ++
+    - Incrementa em uma unidade
+- **Operador unário de decremento de valor**: --
+    - Decrementa uma unidade
+- **Operador unário lógico da negação**: !
+    - Nega valor de expressão booleana
+- **Operador ternário**: ?:
+    - Funcionamento semelhante de um if else
+    - No _exemplo_ abaixo, o resultado é "Falso":
+
+            a = 5;
+            b = 6;
+            int resultado = a==b ? "Verdadeiro" : "Falso";
+- **Operadores relacionais**:
+    - Operam a relação entre duas variáveis ou expressões
+    - Retorna um operador booleano
+    - Igualdade: ==
+    - Diferente: !=
+    - Maior que: >
+    - Menor que: <
+    - Maior ou igual a: >=
+    - Menor ou igual a: <=
+- **Operadores lógicos**: 
+    - Contemplam valores booleanos
+    - Ou contemplam expressões relacionais com valores booleanos
+    - E: &&
+    - Ou: ||
+## Métodos
+
+### Estrutura da declaração de métodos:
 
     tipoDeRetorno nomeObjetivoInfinitivo (Parametros)
 
