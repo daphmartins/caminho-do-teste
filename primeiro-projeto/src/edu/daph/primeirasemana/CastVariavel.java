@@ -1,4 +1,4 @@
-package edu.daph.primeirasemana;
+package primeirasemana;
 
 public class CastVariavel{
 
